@@ -1,0 +1,77 @@
+.AchievementCard{
+    border-radius: 12px;
+    width: 416px;
+    height: 230px;
+    background: white;
+    font-family: "Franklin Gothic Medium";
+    padding: 25px;
+}
+
+.CardHeader{
+    color: #717171;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.CardContent{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.CardContentName{
+    color: #717171;
+    margin-right: 5px;
+}
+
+.CardContentYear{
+    color: #46b7ef;
+    margin-left: 5px;
+}
+
+.CardContentAchievementType{
+    width: auto;
+    height: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background: #46b7ef;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+.CardContentVerificationYes{
+    color: #a6c85f;
+    margin-left: 5px;
+}
+
+.CardContentVerificationNo{
+    color: #c85f5f;
+    margin-left: 5px;
+}
+
+.CardContentAchievementFile{
+    display: flex;
+    height: 23px;
+    width: min-content;
+    background: #e8e9ed;
+    color: #979797;
+    border-radius: 4px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.CardContentAchievementFileName{
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.CardContentFiles{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
