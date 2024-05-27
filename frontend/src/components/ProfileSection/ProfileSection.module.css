@@ -1,0 +1,23 @@
+.ProfileSection {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.AvatarImage {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.Initials {
+    color: black;
+    font-size: 15px;
+}

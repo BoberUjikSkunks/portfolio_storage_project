@@ -1,0 +1,12 @@
+.App {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* это заглушка, потом отдельный компонент сделаем */
+.page-content {
+    height: 100%;
+    margin-left: 400px;
+    padding: 20px;
+}
